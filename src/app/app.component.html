@@ -1,0 +1,17 @@
+<button (click)="carica()">Carica</button>
+<table>
+  <tr *ngFor="let a of articoli">
+    <td>
+      {{a.id}}
+    </td>
+    <td>
+      {{a.userId}}
+    </td>
+    <td>
+      {{a.title}}
+    </td>
+    <td>
+      {{a.body}}
+    </td>
+  </tr>
+</table>
